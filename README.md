@@ -6,7 +6,7 @@ The overall conclusion should be (at least) two web servers, a jumpbox provision
 
 ## Overall Conclusion table
 |Name|Function|Internal IP Address|External IP|OS|
-|----|--------|----------------|--|
+|----|--------|-------------------|-----------|--|
 |Jumpbox provisioner|Gateway|10.0.0.4||Linux|
 |Web-1|DVWA|10.0.0.7|External IP|Linux|
 |Web-2|DVWA|10.0.0.8|External IP|Linux|
