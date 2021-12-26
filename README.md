@@ -86,9 +86,9 @@ These beats allow us to see metrics on location worldwide on who is accessing ou
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the YAML file to your terminal.
-- Update the YAML file to include the IP address of your ELK machine
-- Run the playbook, and navigate to Kibana to check that the installation worked as expected.
+- Copy the config file to your terminal.
+- Update the config file to include the IP address of your ELK machine
+- Run the playbook, and navigate to http://[your.VM.IP]:5601/app/kibana to check that the installation worked as expected.
 
 Which file is the playbook? Where do you copy it? 
 
